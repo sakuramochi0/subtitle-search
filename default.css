@@ -1,0 +1,80 @@
+body {
+    background-color: #ffeeee;
+}
+a {
+    color: #B90B50;
+}
+.lang {
+    text-align: right;
+}
+.main {
+    background-color: white;
+    width: 800px;
+    padding: 20px 50px;
+    margin: 80px auto 30px;
+    border-radius: 15px;
+    border: solid 4px lightpink;
+}
+.user-box {
+    width: 800px;
+    height: 120px;
+    margin: 20px auto;
+}
+.user-box-icon {
+    float: left;
+    width: 130px;
+}
+.user-box-text {
+    float: left;
+    width: 470px;
+    height: 100px;
+    line-height: 100px;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.name {
+    font-size: 25px;
+    margin: 0;
+}
+dt, dd, li {
+    line-height: 2em;
+}
+dt em {
+    font-style: normal;
+    font-weight: bold;
+}
+.footer {
+    text-align: center;
+}
+img.logo{
+    vertical-align: middle;
+    margin: 5px;
+}
+table {
+   border: none;
+   border-collapse:collapse;
+   border-spacing: 0;
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+}
+tr:nth-child(2n) {
+   background: #ffeeee;
+}
+tr:even {
+   background: white;
+}
+td, th {
+   border-bottom: none;
+   border-top: none;
+   border-left: none;
+   padding: 5px;
+}
+th {
+   border-bottom: 2px solid black;
+}
+td:last-child, th:last-child {
+   border-right: none;
+}
